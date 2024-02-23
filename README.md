@@ -32,6 +32,7 @@ This e-commerce website aims to provide a platform for users to browse, search, 
 - Express.js
 - Sequelize (ORM for database management)
 - EJS (Embedded JavaScript) for server-side rendering
+- Express Template
 - MVC (Model-View-Controller) pattern
 - Layouts for consistent UI design
 - Bootstrap or other CSS frameworks for styling
