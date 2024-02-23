@@ -1,6 +1,6 @@
 # Project Name
 
-Short description or introduction of the project.
+This project is an e-commerce website built using Node.js, Express.js, Sequelize, EJS, and follows the MVC (Model-View-Controller) pattern with layouts.
 
 ## Table of Contents
 
@@ -10,26 +10,31 @@ Short description or introduction of the project.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-Brief overview of the project, its purpose, and what problem it solves.
+This e-commerce website aims to provide a platform for users to browse, search, and purchase products online. It includes features such as user authentication, product listing, product details, shopping cart management, checkout, order history, and more.
 
 ## Features
 
-- Feature 1
-- Feature 2
-- ...
+- User authentication (signup, login, logout)
+- Product listing with pagination
+- Product search functionality
+- Product details page
+- Shopping cart management (add to cart, remove from cart, update cart)
+- Checkout process with order summary and payment integration
+- User profile with order history
+- Responsive design for mobile and desktop browsers
 
 ## Technologies Used
 
 - Node.js
 - Express.js
-- Sequelize
-- EJS (Embedded JavaScript)
+- Sequelize (ORM for database management)
+- EJS (Embedded JavaScript) for server-side rendering
 - MVC (Model-View-Controller) pattern
-- Layouts
+- Layouts for consistent UI design
+- Bootstrap or other CSS frameworks for styling
 
 ## Installation
 
@@ -44,6 +49,8 @@ npm install
 
 3. Configure environment variables (if any).
 
+- Create a `.env` file based on `.env.example` and provide necessary configuration details (e.g., database connection, session secret, etc.).
+
 4. Set up the database and run migrations:
    npm run migrate
 
@@ -57,7 +64,13 @@ npm start
 
 2. Open a web browser and navigate to `http://localhost:3000` (or the configured port).
 
-3. Explore the application and its features.
+3. Sign up or log in to your account.
+
+4. Browse products, add them to your cart, and proceed to checkout.
+
+5. Complete the checkout process by providing shipping and payment details.
+
+6. View your order history in the user profile section.
 
 ## Contributing
 
