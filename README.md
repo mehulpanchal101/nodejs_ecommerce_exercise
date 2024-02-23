@@ -1,4 +1,4 @@
-# Project Name
+# E-Commerce Exercise
 
 This project is an e-commerce website built using Node.js, Express.js, Sequelize, EJS, and follows the MVC (Model-View-Controller) pattern with layouts.
 
